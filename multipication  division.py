@@ -8,9 +8,6 @@ def main():
     d = division(num1, num2)
     output(a, d)
 
-
-
-
 def get_input():
     num = input('Enter a number. ')
     while isinstance(num, str):
