@@ -1,16 +1,12 @@
 # Andrew Keller
 # 10/10/24
 
-
 def main():
     num1 = get_input()
     num2 = get_input()
     a = addition(num1, num2)
     d = subtraction(num1, num2)
     output(a, d)
-
-
-
 
 def get_input():
     num = input('Enter a number. ')
